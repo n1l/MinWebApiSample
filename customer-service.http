@@ -1,0 +1,13 @@
+### Get customer by id
+GET https://localhost:5001/customers/c2fc6156-137e-4ef1-a35a-5b24575310d3
+Accept: application/json
+
+### Create customer
+POST https://localhost:5001/customers
+Content-Type: application/json
+
+{
+  "firstName": "Daniel",
+  "lastName": "Vega",
+  "age": "32"
+}
